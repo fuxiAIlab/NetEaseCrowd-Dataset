@@ -71,9 +71,9 @@ We test several existing truth inference methods in our dataset, and detailed an
 
 
 
-
+<!-- 
 ## License
 
 This repository is liciensed under Apache-2.0 License.
 
-The NetEaseCrowd dataset is liciensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+The NetEaseCrowd dataset is liciensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). -->
