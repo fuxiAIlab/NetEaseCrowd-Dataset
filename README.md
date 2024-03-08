@@ -4,25 +4,29 @@ NetEaseCrowd: A Dataset for Long-term and Online Crowdsourcing Truth Inference
 
 ## Introduction
 
-We introduce NetEaseCrowd, a large-scale crowdsourcing annotation dataset based on a mature Chinese data crowdsourcing platform of NetEase Inc.. NetEaseCrowd dataset contains about 2,400 workers, 1,000,000 tasks, and 6,000,000 annotations between them, where the annotations are collected in about 6 months. In this dataset, we provide groundtruths for all the tasks and record timestamps for all the annotations.
+We introduce NetEaseCrowd, a large-scale crowdsourcing annotation dataset based on 
+a mature Chinese data crowdsourcing platform of NetEase Inc.. 
+NetEaseCrowd dataset contains about **2,400** workers, **1,000,000** tasks, and **6,000,000** annotations between them, 
+where the annotations are collected in about 6 months. 
+In this dataset, we provide ground truths for all the tasks and record timestamps for all the annotations.
 
 
+### Task example
 A task example in NetEaseCrowd:
 
-<img src="assets/task_example.png" width="300"/>
+<img src="assets/task_example.png" width="500"/>
 
 Each task contains one true label.
 
+### Comparison with existing datasets
 
-Compared with the existing crowdsourcing datasets, our NetEaseCrowd dataset has following characteristics:
+Compared with the existing crowdsourcing datasets, our NetEaseCrowd dataset has the following characteristics:
 
 | Characteristic | Existing datasets                                    | NetEaseCrowd dataset                                      |
 | -------------- | ---------------------------------------------------- | --------------------------------------------------------- |
 | Scability      | Relatively small sizes in #workers/tasks/annotations | Lage-scale data collection with 6 millions of annotations |
 | Timestamps     | Short-term data with no timestamps recorded          | Complete timestamps recorded during a 6-month timespan    |
 | Task Type      | Single type of tasks                                 | Various task types with different required cabilities     |
-
-
 
 
 
@@ -62,7 +66,7 @@ The basic statistics of NetEaseCrowd dataset and other previous datasets are as 
 
 
 
-<!-- The basic statistics of NetEaseCrowd dataset shows as follow:
+<!-- The basic statistics of NetEaseCrowd dataset shows as follows:
 
 |               | NetEaseCrowd |
 | ------------- | ------------ |
@@ -114,4 +118,4 @@ We test several existing truth inference methods in our dataset, and detailed an
 
 ## License
 
-The NetEaseCrowd dataset is liciensed under [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en).
+The NetEaseCrowd dataset is licensed under [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en).
