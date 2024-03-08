@@ -12,19 +12,18 @@ In this dataset, we provide ground truths for all the tasks and record timestamp
 
 
 ### Task example
-A task example in NetEaseCrowd:
+NetEaseCrowd dataset includes task examples, with each task containing a single true label as shown below:
 
 <img src="assets/task_example.png" width="500"/>
 
-Each task contains one true label.
 
 ### Comparison with existing datasets
 
 Compared with the existing crowdsourcing datasets, our NetEaseCrowd dataset has the following characteristics:
 
 | Characteristic | Existing datasets                                    | NetEaseCrowd dataset                                      |
-| -------------- | ---------------------------------------------------- | --------------------------------------------------------- |
-| Scability      | Relatively small sizes in #workers/tasks/annotations | Lage-scale data collection with 6 millions of annotations |
+|----------------|------------------------------------------------------|-----------------------------------------------------------|
+| Scalability    | Relatively small sizes in #workers/tasks/annotations | Lage-scale data collection with 6 millions of annotations |
 | Timestamps     | Short-term data with no timestamps recorded          | Complete timestamps recorded during a 6-month timespan    |
 | Task Type      | Single type of tasks                                 | Various task types with different required cabilities     |
 
@@ -100,7 +99,7 @@ In the dataset, each line of record represents an interaction between a worker a
 We test several existing truth inference methods in our dataset, and detailed analysis with more experimental setups can be found in our paper.
 
 | Method         | Accuracy | F1-score |
-| -------------- | -------- | -------- |
+|----------------|----------|----------|
 | MV             | 0.92695  | 0.92692  |
 | DS             | 0.95178  | 0.94817  |
 | MACE           | 0.95991  | 0.94957  |
