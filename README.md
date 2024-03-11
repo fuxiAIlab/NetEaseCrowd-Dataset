@@ -13,6 +13,7 @@ In this dataset, we provide ground truths for all the tasks and record timestamp
 
 ### Task
 NetEaseCrowd dataset is built based on a gesture comparison task. Each task contains three choices, where two are similar gestures and the other one is not. Annotators are required to pick out the different one. An example is shown below:
+
 <img src="assets/task_example.png" width="500"/>
 
 
@@ -24,7 +25,7 @@ Compared with the existing crowdsourcing datasets, our NetEaseCrowd dataset has 
 |----------------|------------------------------------------------------|-----------------------------------------------------------|
 | Scalability    | Relatively small sizes in #workers/tasks/annotations | Lage-scale data collection with 6 millions of annotations |
 | Timestamps     | Short-term data with no timestamps recorded          | Complete timestamps recorded during a 6-month timespan    |
-| Task Type      | Single type of tasks                                 | Various task types with different required cabilities     |
+| Task Type      | Single type of tasks                                 | Various task types with different required capabilities   |
 
 
 
@@ -95,11 +96,11 @@ In the dataset, each line of record represents an interaction between a worker a
 
 ### Data sample
 
-| tasksetId | taskId | workerId | answer | completeTime | truth | capability |
-|--|--|--|--|--|--|--|
-| 6980 |1012658482844795232 | 64 |2 |1661917345953 |1 |69|
-| 6980 | 1012658482844795232|150|1|1661871234755|1|69|
-| 6980 | 1012658482844795232|263|0|1661855450281|1|69|
+| tasksetId | taskId              | workerId | answer | completeTime  | truth | capability |
+|-----------|---------------------|----------|--------|---------------|-------|------------|
+| 6980      | 1012658482844795232 | 64       | 2      | 1661917345953 | 1     | 69         |
+| 6980      | 1012658482844795232 | 150      | 1      | 1661871234755 | 1     | 69         |
+| 6980      | 1012658482844795232 | 263      | 0      | 1661855450281 | 1     | 69         |
 
 In the example above, there are three annotations, all from the same taskset 6980 and the same task 1012658482844795232. Three annotators, with ids 64, 150, and 263, provide annotations of 2, 1, and 0, respectively. They do the task at different time. The truth label for this task is 1, and the capability id of the task is 69.
 
@@ -125,13 +126,13 @@ We test several existing truth inference methods in our dataset, and detailed an
 ## Other public datasets
 We provide a curated list for other public datasets towards truth inference task. 
 
-| Dataset Name | Resource |
-| -- | -- | 
-| adult | Quality management on amazon mechanical turk. [[paper](https://dl.acm.org/doi/abs/10.1145/1837885.1837906)][[data](https://github.com/ipeirotis/Get-Another-Label/tree/master/data)] |
-| sentiment<br>fact | Workshops Held at the First AAAI Conference on Human Computation and Crowdsourcing: A Report. [[paper](https://ojs.aaai.org/index.php/aimagazine/article/view/2537/2427)][[data](https://sites.google.com/site/crowdscale2013/home)] |
-| MS<br>zencrowd_all<br>zencrowd_us<br>zencrowd_in<br>sp<br>sp_amt<br>cf<br>cf_amt | The activecrowdtoolkit: An open-source tool for benchmarking active learning algorithms for crowdsourcing research. [[paper](https://ojs.aaai.org/index.php/HCOMP/article/download/13256/13104)][[data](https://github.com/orchidproject/active-crowd-toolkit)] |
-| Product<br>tweet<br>dog<br>face<br>duck<br>relevance<br>smile | Truth inference in crowdsourcing: Is the problem solved? [[paper](https://hub.hku.hk/bitstream/10722/243527/1/content.pdf?accept=1)][[data](https://zhydhkcws.github.io/crowd_truth_inference/)] <br> *Note that tweet dataset is called sentiment in this source. It is different from the sentiment dataset in CrowdScale2013.* |
-| bird<br>rte<br>web<br>trec | Spectral methods meet em: A provably optimal algorithm for crowdsourcing. [[paper](https://proceedings.neurips.cc/paper/2014/file/788d986905533aba051261497ecffcbb-Paper.pdf)][[data](https://github.com/zhangyuc/SpectralMethodsMeetEM)] |
+| Dataset Name                                                                     | Resource                                                                                                                                                                                                                                                                                                                          |
+|----------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| 
+| adult                                                                            | Quality management on amazon mechanical turk. [[paper](https://dl.acm.org/doi/abs/10.1145/1837885.1837906)][[data](https://github.com/ipeirotis/Get-Another-Label/tree/master/data)]                                                                                                                                              |
+| sentiment<br>fact                                                                | Workshops Held at the First AAAI Conference on Human Computation and Crowdsourcing: A Report. [[paper](https://ojs.aaai.org/index.php/aimagazine/article/view/2537/2427)][[data](https://sites.google.com/site/crowdscale2013/home)]                                                                                              |
+| MS<br>zencrowd_all<br>zencrowd_us<br>zencrowd_in<br>sp<br>sp_amt<br>cf<br>cf_amt | The active crowd toolkit: An open-source tool for benchmarking active learning algorithms for crowdsourcing research. [[paper](https://ojs.aaai.org/index.php/HCOMP/article/download/13256/13104)][[data](https://github.com/orchidproject/active-crowd-toolkit)]                                                                 |
+| Product<br>tweet<br>dog<br>face<br>duck<br>relevance<br>smile                    | Truth inference in crowdsourcing: Is the problem solved? [[paper](https://hub.hku.hk/bitstream/10722/243527/1/content.pdf?accept=1)][[data](https://zhydhkcws.github.io/crowd_truth_inference/)] <br> *Note that tweet dataset is called sentiment in this source. It is different from the sentiment dataset in CrowdScale2013.* |
+| bird<br>rte<br>web<br>trec                                                       | Spectral methods meet em: A provably optimal algorithm for crowdsourcing. [[paper](https://proceedings.neurips.cc/paper/2014/file/788d986905533aba051261497ecffcbb-Paper.pdf)][[data](https://github.com/zhangyuc/SpectralMethodsMeetEM)]                                                                                         |
 
 ## License
 
