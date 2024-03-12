@@ -79,7 +79,10 @@ The basic statistics of NetEaseCrowd dataset and [other previous datasets](#othe
 
 ### Obtain the data
 
-The NetEaseCrowd dataset is provided in partitions under the `data/` folder of this repository in the csv file format. Each partition is named as `NetEaseCrowd_part_x.csv`. Concat them to get the entire NetEaseCrowd dataset.
+Two ways to access the dataset:
+* Directly download overall NetEaseCrowd in [Hugging Face](https://huggingface.co/datasets/liuhyuu/NetEaseCrowd) [**Recommended**]
+
+* Under the [`data/` folder](https://github.com/fuxiAIlab/NetEaseCrowd-Dataset/tree/main/data), the NetEaseCrowd dataset is provided in partitions in the csv file format. Each partition is named as `NetEaseCrowd_part_x.csv`. Concat them to get the entire NetEaseCrowd dataset.
 
 ### Dataset format
 
