@@ -126,6 +126,25 @@ We test several existing truth inference methods in our dataset, and detailed an
 | LAA            | 0.94173  | 0.94169  |
 | BiLA           | 0.88036  | 0.87896  |
 
+### Test with the dataset directly from crowd-kit
+
+The NetEaseCrowd dataset has been integrated into the [crowd-kit](https://github.com/Toloka/crowd-kit)
+(with pull request [here](https://github.com/Toloka/crowd-kit/pull/101)),
+you can use it directly in your code with the following code(with crowd-kit version > 1.2.1):
+
+```python
+from crowdkit.aggregation import DawidSkene
+from crowdkit.datasets import load_dataset
+
+df, gt = load_dataset('netease_crowd')
+
+ds = DawidSkene(10)
+result = ds.fit_predict(df)
+
+print(len(result))
+# 999799
+
+```
 
 ## Other public datasets
 We provide a curated list for other public datasets towards truth inference task. 
