@@ -156,6 +156,20 @@ We provide a curated list for other public datasets towards truth inference task
 | MS<br>zencrowd_all<br>zencrowd_us<br>zencrowd_in<br>sp<br>sp_amt<br>cf<br>cf_amt | The active crowd toolkit: An open-source tool for benchmarking active learning algorithms for crowdsourcing research. [[paper](https://ojs.aaai.org/index.php/HCOMP/article/download/13256/13104)][[data](https://github.com/orchidproject/active-crowd-toolkit)]                                                                 |
 | Product<br>tweet<br>dog<br>face<br>duck<br>relevance<br>smile                    | Truth inference in crowdsourcing: Is the problem solved? [[paper](https://hub.hku.hk/bitstream/10722/243527/1/content.pdf?accept=1)][[data](https://zhydhkcws.github.io/crowd_truth_inference/)] <br> *Note that tweet dataset is called sentiment in this source. It is different from the sentiment dataset in CrowdScale2013.* |
 | bird<br>rte<br>web<br>trec                                                       | Spectral methods meet em: A provably optimal algorithm for crowdsourcing. [[paper](https://proceedings.neurips.cc/paper/2014/file/788d986905533aba051261497ecffcbb-Paper.pdf)][[data](https://github.com/zhangyuc/SpectralMethodsMeetEM)]                                                                                         |
+## Citation
+
+If you use this project in your research or work, please cite it using the following BibTeX entry:
+
+```bibtex
+@misc{wang2024dataset,
+      title={A Dataset for the Validation of Truth Inference Algorithms Suitable for Online Deployment}, 
+      author={Fei Wang and Haoyu Liu and Haoyang Bi and Xiangzhuang Shen and Renyu Zhu and Runze Wu and Minmin Lin and Tangjie Lv and Changjie Fan and Qi Liu and Zhenya Huang and Enhong Chen},
+      year={2024},
+      eprint={2403.08826},
+      archivePrefix={arXiv},
+      primaryClass={cs.HC}
+}
+```
 
 ## License
 
