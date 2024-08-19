@@ -12,7 +12,10 @@ In this dataset, we provide ground truths for all the tasks and record timestamp
 
 
 ### Task
-NetEaseCrowd dataset is built based on a gesture comparison task. Each task contains three choices, where two are similar gestures and the other one is not. Annotators are required to pick out the different one. An example is shown below:
+The NetEaseCrowd dataset is constructed based on various types of tasks.
+For instance, in a gesture comparison task, each task includes three choices, 
+two of which feature similar gestures, while the third does not.
+Annotators are required to pick out the different one. An example is shown below:
 
 <center>
 <img src="assets/task_example.png" width="500"/>
