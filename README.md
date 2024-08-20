@@ -13,13 +13,79 @@ In this dataset, we provide ground truths for all the tasks and record timestamp
 
 ### Task
 The NetEaseCrowd dataset is constructed based on various types of tasks.
-For instance, in a gesture comparison task, each task includes three choices, 
-two of which feature similar gestures, while the third does not.
-Annotators are required to pick out the different one. An example is shown below:
+In detail, there are 6 different types of tasks in the dataset
+(associated with different `capability` as illustrated in our paper).
+There are some examples of the tasks in the dataset:
 
-<center>
-<img src="assets/task_example.png" width="500"/>
-</center>
+- **50: Expression similarity filtering**
+    > Question: Select the image from A, B, and C that looks the least similar in expression to the other two images.
+    
+    <details>
+    <summary>Click to show question related images</summary>
+  
+    ![A](./assets/samples/50_01.jpg) | ![B](/assets/samples/50_02.jpg) | ![C](/assets/samples/50_03.jpg)
+  
+    </details>
+    
+      
+- **52: Naturalness of Expression Judgment**
+
+    > Question: Select the most natural expression from the three images below
+    
+    <details>
+    <summary>Click to show question related images</summary>
+  
+    ![A](./assets/samples/52_01.jpg) | ![B](/assets/samples/52_02.jpg) | ![C](/assets/samples/52_03.jpg)
+    </details>
+
+
+- **53: Facial Similarity Screening**
+
+    > Question: Select the face that looks more like the reference face(first face).
+    
+    <details>
+    <summary>Click to show question related images</summary>
+  
+    <div style="display: flex;">
+      <img src="/assets/samples/53_01.jpeg" style="width: 25%;" />
+      <img src="/assets/samples/53_02.jpeg" style="width: 25%;" /> 
+      <img src="/assets/samples/53_03.jpeg" style="width: 25%;" />
+    </div>
+    </details>
+
+- **56: Gesture Similarity Filter**
+
+    > Question: Select the gesture that looks the least similar to the other two gestures.
+    
+    <details>
+    <summary>Click to show question related images</summary>
+  
+    <div style="display: flex;">
+      <img src="/assets/samples/56_01.png" style="width: 25%;" />
+      <img src="/assets/samples/56_02.png" style="width: 25%;" /> 
+      <img src="/assets/samples/56_03.png" style="width: 25%;" />
+    </div>
+    </details>
+
+- **69: Article continuation classification**
+
+    > Question: Please select the best continuation between A and B based on: 1. Information richness; 2. Sentence fluency; 3. Coherence with the previous text; 4. Logical consistency, or select 'undecided'.
+
+     <details>
+     <summary>Click to show question related content(raw content in Chinese)</summary>
+  
+     ```
+     背景: 随着他的靠近，无形间带动一股越发猛烈的气流，他的脚步未曾停下半分，压强震裂了水泥浇灌的地面，半块凹陷成蛛网状，年轻男人紧咬牙关，迎着割裂盔甲的气流一步一步，左手展开挡在前面，右手握成拳聚起全身力气向前，数据条停了片刻，尖锐声波铺天盖地，刺眼的光突然炸开，黑洞般吞噬他的身体。
+     画面顷刻定格，小心眯起眼睛，有个声音散在一片白茫茫之中，空洞的、零落的，意外有些耳熟。
+     “他叫开心。”
+    
+     选项A: 这是小心第几次梦见开心了？他不记得了，可每当他想要回忆起什么时，就觉得脑袋像是被人用锤子狠狠砸了一下，疼得他整个人都发麻，随后便是无尽的黑暗。
+    
+     选项B: 小心不知道自己是怎么回到家的，那段记忆太过陌生，以至于他对此毫无印象，只是当他推开门的时候，看到屋内的景象，脑袋里轰然炸开一朵巨大的烟花。
+    
+     选项C：不确定
+     ```
+     </details>
 
 ### Comparison with existing datasets
 
