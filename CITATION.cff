@@ -30,6 +30,6 @@ authors:
 date-released: 2024-03-10
 url: "https://arxiv.org/abs/2403.08826"
 identifiers:
-- type: other
-  value: "arXiv:2403.08826"
-  description: The ArXiv preprint of the paper
+  - type: other
+    value: "arXiv:2403.08826"
+    description: The ArXiv preprint of the paper
