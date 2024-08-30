@@ -1,10 +1,11 @@
 # NetEaseCrowd
-
-NetEaseCrowd: A Dataset for Long-term and Online Crowdsourcing Truth Inference
-
 [![arXiv](https://img.shields.io/badge/arXiv-2403.08826-b31b1b.svg)](https://arxiv.org/abs/2403.08826)
 [![Hugging Face Datasets](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Datasets-blue)](https://huggingface.co/datasets/liuhyuu/NetEaseCrowd)
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
+
+
+NetEaseCrowd: A Dataset for Long-term and Online Crowdsourcing Truth Inference
+
 
 
 ## Introduction
