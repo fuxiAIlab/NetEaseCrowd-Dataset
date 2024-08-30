@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+authors:
+  - family-names: "Wang"
+    given-names: "Fei"
+  - family-names: "Liu"
+    given-names: "Haoyu"
+  - family-names: "Bi"
+    given-names: "Haoyang"
+  - family-names: "Shen"
+    given-names: "Xiangzhuang"
+  - family-names: "Zhu"
+    given-names: "Renyu"
+  - family-names: "Wu"
+    given-names: "Runze"
+  - family-names: "Lin"
+    given-names: "Minmin"
+  - family-names: "Lv"
+    given-names: "Tangjie"
+  - family-names: "Fan"
+    given-names: "Changjie"
+  - family-names: "Liu"
+    given-names: "Qi"
+  - family-names: "Huang"
+    given-names: "Zhenya"
+  - family-names: "Chen"
+    given-names: "Enhong"
+title: "A Dataset for the Validation of Truth Inference Algorithms Suitable for Online Deployment"
+type: article
+year: 2024
+identifiers:
+  - type: arxiv
+    value: 2403.08826
+    description: The ArXiv preprint ID
+url: "https://arxiv.org/abs/2403.08826"
+abstract: "This is a dataset for the validation of truth inference algorithms suitable for online deployment."
