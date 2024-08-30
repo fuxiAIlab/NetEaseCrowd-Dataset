@@ -27,7 +27,7 @@ authors:
     given-names: "Enhong"
 title: "A Dataset for the Validation of Truth Inference Algorithms Suitable for Online Deployment"
 type: article
-year: 2024
+date-released: 2024
 identifiers:
   - type: arxiv
     value: 2403.08826
