@@ -1,6 +1,12 @@
 # NetEaseCrowd
+[![arXiv](https://img.shields.io/badge/arXiv-2403.08826-b31b1b.svg)](https://arxiv.org/abs/2403.08826)
+[![Hugging Face Datasets](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Datasets-blue)](https://huggingface.co/datasets/liuhyuu/NetEaseCrowd)
+[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
+
 
 NetEaseCrowd: A Dataset for Long-term and Online Crowdsourcing Truth Inference
+
+
 
 ## Introduction
 
@@ -35,7 +41,7 @@ There are some examples of the tasks in the dataset:
     <details>
     <summary>Click to show question related images</summary>
   
-    ![A](./assets/samples/52_01.jpg) | ![B](/assets/samples/52_02.jpg) | ![C](/assets/samples/52_03.jpg)
+    ![A](./assets/samples/52_01.jpg) | ![B](./assets/samples/52_02.jpg) | ![C](./assets/samples/52_03.jpg)
     </details>
 
 
@@ -77,7 +83,7 @@ There are some examples of the tasks in the dataset:
      ```
      背景: 随着他的靠近，无形间带动一股越发猛烈的气流，他的脚步未曾停下半分，压强震裂了水泥浇灌的地面，半块凹陷成蛛网状，年轻男人紧咬牙关，迎着割裂盔甲的气流一步一步，左手展开挡在前面，右手握成拳聚起全身力气向前，数据条停了片刻，尖锐声波铺天盖地，刺眼的光突然炸开，黑洞般吞噬他的身体。
      画面顷刻定格，小心眯起眼睛，有个声音散在一片白茫茫之中，空洞的、零落的，意外有些耳熟。
-     “他叫开心。”
+     "他叫开心。"
     
      选项A: 这是小心第几次梦见开心了？他不记得了，可每当他想要回忆起什么时，就觉得脑袋像是被人用锤子狠狠砸了一下，疼得他整个人都发麻，随后便是无尽的黑暗。
     
