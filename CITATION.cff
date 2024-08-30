@@ -28,9 +28,8 @@ authors:
 title: "A Dataset for the Validation of Truth Inference Algorithms Suitable for Online Deployment"
 type: article
 date-released: 2024
-identifiers:
-  - type: arxiv
-    value: 2403.08826
-    description: The ArXiv preprint ID
 url: "https://arxiv.org/abs/2403.08826"
-abstract: "This is a dataset for the validation of truth inference algorithms suitable for online deployment."
+identifiers:
+- type: other
+  value: "arXiv:2403.08826"
+  description: The ArXiv preprint of the paper
