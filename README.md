@@ -47,15 +47,15 @@ There are some examples of the tasks in the dataset:
 
 - **53: Facial Similarity Screening**
 
-    > Question: Select the face that looks more like the reference face(first face).
+    > Question: Choose the face that is least like the other two from the following three faces..
     
     <details>
     <summary>Click to show question related images</summary>
   
     <div style="display: flex;">
-      <img src="/assets/samples/53_01.jpeg" style="width: 25%;" />
-      <img src="/assets/samples/53_02.jpeg" style="width: 25%;" /> 
-      <img src="/assets/samples/53_03.jpeg" style="width: 25%;" />
+      <img src="/assets/samples/53_01.jpg" style="width: 25%;" />
+      <img src="/assets/samples/53_02.jpg" style="width: 25%;" /> 
+      <img src="/assets/samples/53_03.jpg" style="width: 25%;" />
     </div>
     </details>
 
