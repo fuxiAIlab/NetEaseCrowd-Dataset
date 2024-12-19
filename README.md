@@ -47,7 +47,7 @@ There are some examples of the tasks in the dataset:
 
 - **53: Facial Similarity Screening**
 
-    > Question: Choose the face that is least like the other two from the following three faces..
+    > Question: Choose the face that is least like the other two from the following three faces.
     
     <details>
     <summary>Click to show question related images</summary>
